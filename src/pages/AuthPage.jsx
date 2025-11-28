@@ -44,7 +44,7 @@ const AuthPage = () => {
       <div className="max-w-md w-full space-y-8">
         <div className="text-center">
           <h1 className="text-3xl font-light text-primary mb-2">
-            Welcome to 12 Weeks of Asceticism
+            Welcome to Ascetic Journey
           </h1>
           <p className="text-accent">
             Enter your email to sign in or create an account

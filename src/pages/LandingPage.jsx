@@ -29,7 +29,7 @@ const LandingPage = () => {
   // Show landing page for non-authenticated users
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-background font-serif text-primary px-4 sm:px-6">
-      <h1 className="text-2xl sm:text-3xl md:text-4xl mb-3 sm:mb-4 font-light text-center">12 Weeks of Asceticism</h1>
+      <h1 className="text-2xl sm:text-3xl md:text-4xl mb-3 sm:mb-4 font-light text-center">Ascetic Journey</h1>
       <p className="mb-6 sm:mb-8 max-w-xl text-center text-sm sm:text-base md:text-lg text-accent">
         Welcome to your minimalist journey. Each week, unlock new practices and reflect on your progress. Embrace simplicity, discipline, and self-discovery.
       </p>

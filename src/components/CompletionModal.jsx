@@ -74,7 +74,7 @@ const CompletionModal = ({ isOpen, onClose }) => {
 📝 ${stats.totalWords.toLocaleString()} words journaled
 🏋️ ${stats.totalPracticesCompleted} practices completed
 
-Start your own journey at 12weeksofasceticism.com`;
+Start your own journey at asceticjourney.com`;
 
   const handleCopyText = async () => {
     try {
@@ -90,7 +90,7 @@ Start your own journey at 12weeksofasceticism.com`;
     if (navigator.share) {
       try {
         await navigator.share({
-          title: '12 Weeks of Asceticism - Journey Completed!',
+          title: 'Ascetic Journey - Journey Completed!',
           text: shareableText,
         });
       } catch (err) {
@@ -173,7 +173,7 @@ Start your own journey at 12weeksofasceticism.com`;
     // Footer
     ctx.fillStyle = textColor;
     ctx.font = '28px serif';
-    ctx.fillText('12weeksofasceticism.com', canvas.width / 2, 580);
+    ctx.fillText('asceticjourney.com', canvas.width / 2, 580);
 
     // Convert to blob and download
     canvas.toBlob((blob) => {

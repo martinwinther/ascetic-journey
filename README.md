@@ -1,4 +1,4 @@
-# 12 Weeks of Asceticism
+# Ascetic Journey
 
 A comprehensive web application designed to guide users through a structured 84-day asceticism program. The app combines modern web technologies with thoughtful UX design to create an engaging personal development platform.
 

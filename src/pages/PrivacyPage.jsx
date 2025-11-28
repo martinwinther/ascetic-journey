@@ -17,7 +17,7 @@ const PrivacyPage = () => {
           <section>
             <h2 className="text-2xl font-semibold text-primary mb-4">1. Introduction</h2>
             <p className="mb-4">
-              Welcome to 12 Weeks of Asceticism. We respect your privacy and are committed to protecting your personal data. 
+              Welcome to Ascetic Journey. We respect your privacy and are committed to protecting your personal data. 
               This privacy policy explains how we collect, use, and safeguard your information when you use our service.
             </p>
             <p>
@@ -32,7 +32,7 @@ const PrivacyPage = () => {
             </p>
             <p>
               <strong>Contact Information:</strong><br />           
-              Email: privacy@12weeksofasceticism.com<br />
+              Email: privacy@asceticjourney.com<br />
             
             </p>
           </section>
@@ -129,7 +129,7 @@ const PrivacyPage = () => {
               <li><strong>Right to Withdraw Consent:</strong> Withdraw consent for cookie-based processing</li>
             </ul>
             <p className="mt-4">
-              To exercise these rights, contact us at privacy@12weeksofasceticism.com
+              To exercise these rights, contact us at privacy@asceticjourney.com
             </p>
           </section>
 
@@ -168,7 +168,7 @@ const PrivacyPage = () => {
               If you have any questions about this privacy policy or our data practices, please contact us:
             </p>
             <p>
-              <strong>Email:</strong> privacy@12weeksofasceticism.com<br />
+              <strong>Email:</strong> privacy@asceticjourney.com<br />
             </p>
             <p className="mt-4">
               You also have the right to lodge a complaint with your local data protection authority if you believe 
