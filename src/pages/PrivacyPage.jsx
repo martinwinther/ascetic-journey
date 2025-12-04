@@ -49,18 +49,20 @@ const PrivacyPage = () => {
 
             <h3 className="text-xl font-semibold text-primary mb-2">3.2 Technical Data</h3>
             <ul className="list-disc pl-6 mb-4 space-y-1">
-              <li><strong>IP Address:</strong> For security and analytics purposes</li>
+              <li><strong>IP Address:</strong> For security purposes (collected by Supabase for authentication)</li>
               <li><strong>Browser Information:</strong> To ensure compatibility</li>
               <li><strong>Device Information:</strong> To optimize your experience</li>
             </ul>
 
             <h3 className="text-xl font-semibold text-primary mb-2">3.3 Cookies</h3>
-            <p className="mb-2">We use the following types of cookies:</p>
+            <p className="mb-2">We use only necessary cookies for authentication and session management:</p>
             <ul className="list-disc pl-6 space-y-1">
-              <li><strong>Necessary Cookies:</strong> Required for basic site functionality</li>
-              <li><strong>Analytics Cookies:</strong> Help us understand site usage (only with consent)</li>
-              <li><strong>Marketing Cookies:</strong> Used for personalized content (only with consent)</li>
+              <li><strong>Session Cookies:</strong> Required for authentication and maintaining your session. These cookies are set by Supabase and are essential for the website to function properly.</li>
             </ul>
+            <p className="mt-2">
+              We do not use analytics cookies, marketing cookies, or any other tracking technologies. 
+              Your preferences and data are stored locally in your browser using localStorage, which is not a cookie.
+            </p>
           </section>
 
           <section>
@@ -80,9 +82,8 @@ const PrivacyPage = () => {
             <h2 className="text-2xl font-semibold text-primary mb-4">5. Legal Basis for Processing</h2>
             <p className="mb-4">We process your personal data based on the following legal grounds:</p>
             <ul className="list-disc pl-6 space-y-1">
-              <li><strong>Consent:</strong> For analytics and marketing cookies</li>
-              <li><strong>Contract:</strong> To provide our service to you</li>
-              <li><strong>Legitimate Interest:</strong> To improve our service and ensure security</li>
+              <li><strong>Contract:</strong> To provide our service to you and fulfill our agreement</li>
+              <li><strong>Legitimate Interest:</strong> To ensure security and prevent fraud</li>
               <li><strong>Legal Obligation:</strong> To comply with applicable laws</li>
             </ul>
           </section>
@@ -126,7 +127,7 @@ const PrivacyPage = () => {
               <li><strong>Right to Restrict Processing:</strong> Limit how we use your data</li>
               <li><strong>Right to Data Portability:</strong> Receive your data in a structured format</li>
               <li><strong>Right to Object:</strong> Object to processing based on legitimate interests</li>
-              <li><strong>Right to Withdraw Consent:</strong> Withdraw consent for cookie-based processing</li>
+              <li><strong>Right to Withdraw Consent:</strong> Withdraw consent for any processing based on consent (currently not applicable as we only use necessary cookies)</li>
             </ul>
             <p className="mt-4">
               To exercise these rights, contact us at privacy@asceticjourney.com
